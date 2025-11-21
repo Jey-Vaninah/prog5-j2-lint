@@ -1,0 +1,26 @@
+{
+  "name": "prog5-j2-lint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --loader ts-node/esm src/wallet.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jey-Vaninah/prog5-j2-lint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jey-Vaninah/prog5-j2-lint/issues"
+  },
+  "homepage": "https://github.com/Jey-Vaninah/prog5-j2-lint#readme",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
