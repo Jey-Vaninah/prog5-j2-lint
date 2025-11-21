@@ -1,4 +1,3 @@
-
 export class Wallet {
     private color: string;
     private size: number;
@@ -49,6 +48,6 @@ export class Wallet {
     }
 
     public checkMoney(): string {
-        return (`Available money: ${this.money} €`);
+        return `Available money: ${this.money} €`;
     }
 }
