@@ -1,0 +1,22 @@
+name: Lint Code
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: npm install # or yarn install
+      - name: Run ESLint
+        uses: sibiraj-s/action-eslint@v4 # or another suitable ESLint action
+        with:
+          # Optional: Specify files or directories to lint
+          files: 'wallet.ts'
+          # Optional: Pass additional ESLint arguments
+          # eslint-args: '--quiet'

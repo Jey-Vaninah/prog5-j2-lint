@@ -18,5 +18,5 @@
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false
-  }, "include": ["src"]
+  }, "include": ["src", "eslint.config.ts"]
 }
