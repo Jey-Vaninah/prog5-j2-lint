@@ -1,4 +1,5 @@
-class Wallet {
+
+export class Wallet {
     private color: string;
     private size: number;
     private money: number;
@@ -51,4 +52,3 @@ class Wallet {
         return (`Available money: ${this.money} €`);
     }
 }
-
